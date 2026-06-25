@@ -43,7 +43,6 @@ export function LoginScreen() {
                     placeholder="example@gmail.com"
                     placeholderTextColor="gray"
                     onChangeText={setEmail}
-                //value={email}
                 />
                 <Text style={styles.paragraph}>Digite sua senha:</Text>
                 <TextInput

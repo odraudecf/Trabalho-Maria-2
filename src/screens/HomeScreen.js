@@ -114,7 +114,7 @@ usuarioFiltro === "Todos"
           />
         )}
         ListEmptyComponent={
-          <Text style={styles.subtitulo}>Nenhum anuncio encontrada</Text>
+          <Text style={styles.subtitulo}>Nenhum anuncio encontrado</Text>
         }
        
       />

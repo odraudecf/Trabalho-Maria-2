@@ -1,8 +1,7 @@
-
-import { Button, FlatList, Text, View } from 'react-native';
-import { AnuncioItem } from '../components/AnuncioItem';
 import { collection, onSnapshot } from "firebase/firestore";
 import { useEffect, useState } from 'react';
+import { Button, FlatList, Text, View } from 'react-native';
+import { AnuncioItem } from '../components/AnuncioItem';
 import { db } from "../firebaseConfig";
 import { logout } from '../services/AuthService';
 import { styles } from '../styles';
@@ -78,7 +77,7 @@ export function HomeScreen({ navigation }) {
           />
         )}
         ListEmptyComponent={
-          <Text style={styles.subtitulo}>Nenhum anuncio encontrada</Text>
+          <Text style={styles.subtitulo}>Nenhum anuncio encontrado</Text>
         }
        
       />
